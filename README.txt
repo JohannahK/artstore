@@ -4,7 +4,7 @@ make sure you're in the right directory
 git pull
 git add <files>
 git commit -m "description"
-git push origin master
+git push origin master (optional bc it sometimes errors?)
 
 ** for fonts
 header: ITC Tapioca Medium
