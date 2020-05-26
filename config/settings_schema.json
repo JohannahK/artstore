@@ -545,7 +545,7 @@
           "zh-CN": "字体",
           "zh-TW": "字型"
         },
-        "default": "old_standard_tt_n4"
+        "default": "itc_tapioca_n5"
       },
       {
         "type": "select",
@@ -850,7 +850,7 @@
           "zh-CN": "字体",
           "zh-TW": "字型"
         },
-        "default": "montserrat_n6"
+        "default": "sackers_square_gothic_n4"
       },
       {
         "type": "checkbox",
@@ -950,7 +950,7 @@
           "zh-TW": "內文"
         }
       },
-      {
+       {
         "type": "font_picker",
         "id": "type_base_family",
         "label": {
@@ -973,8 +973,8 @@
           "zh-CN": "字体",
           "zh-TW": "字型"
         },
-        "default": "arapey_n4"
-      },
+        "default": "neo_sans_i4"
+      }, 
       {
         "type": "select",
         "id": "type_base_size",

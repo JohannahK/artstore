@@ -472,7 +472,24 @@ $accentFontStyle: {{ accent_family.style }};
 
 $socialIconFontStack: 'icons';
 
+/* // FONTS
 
+@font-face {
+  font-family: 'caveat_bold';
+  src: url('{{"Caveat-Bold.ttf" | asset_url}}');
+  src: url('{{"Caveat-Bold.ttf" | asset_url}}') format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+   font-family: 'nanum_myeongjo_bold';
+   src: url('{{"NanumMyeongjo-Bold.ttf" | asset_url}}'); 
+   src: url('{{"NanumMyeongjo-Bold.ttf" | asset_url}}') format("truetype");
+   font-weight: bold
+   font-style: normal;
+}
+*/
 /*================ Vendor-specific styles ================*/
 /* Magnific Popup CSS */
 .mfp-bg {
@@ -1176,11 +1193,11 @@ blockquote {
 
 .collection-grid__item-title {
   @include bodyFontItalic;
-  font-size: em(26px);
+  font-size: em(23px);
   line-height: 1.1;
 
   @include at-query($min, $postSmall) {
-    font-size: em(34px);
+    font-size: em(26px);
   }
 }
 
